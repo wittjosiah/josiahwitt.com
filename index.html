@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Josiah Witt</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/glasses9.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Lato|Oswald:300,400" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #000;
+    }
+    #bgvid {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+      background: url('https://s3.amazonaws.com/josiahwitt-cover/Sail-Away/Sail-Away.jpg') no-repeat;
+      background-size: cover;
+      background-position: top;
+      opacity: .9;
+    }
+    #container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+    }
+    #josiah {
+      color: #fff;
+      max-width: 527px;
+      box-sizing: border-box;
+      padding: 20px;
+      height: 350px;
+    }
+    #josiah h1 {
+      font-family: Lato;
+      font-size: 64px;
+      margin: 0 0 5px 0;
+      text-align: center;
+    }
+    #josiah h2 {
+      font-family: Lato;
+      font-size: 32px;
+      margin-top: 0;
+      text-align: center;
+    }
+    #josiah p {
+      font-family: Oswald;
+      font-size: 18px;
+      font-weight: 300;
+      margin: 0;
+      text-align: left;
+    }
+    #josiah p.quoter {
+      text-align: right;
+      font-weight: 400;
+    }
+    #find-me {
+      position: absolute;
+      width: 100%;
+      bottom: 40px;
+      color: #fff;
+      text-align: center;
+    }
+    #find-me a span {
+      font-size: 36px;
+      margin-right: 10px;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: .5s color;
+    }
+    a:hover {
+      color: #248FDA;
+    }
+    @media screen and (max-device-width: 700px) {
+      /* Disable Video on Mobile Devices */
+      /*#bgpic {
+        background: url('https://s3.amazonaws.com/josiahwitt-cover/Sail-Away/Sail-Away.jpg') #fff no-repeat center center fixed;
+        background-size: cover;
+        background-position: top;
+        opacity: .9;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      #bgvid {
+        display: none;
+      }*/
+      #josiah h1 {
+        font-size: 48px;
+        text-align: center;
+      }
+      #josiah h2 {
+        font-size: 24px;
+        text-align: center;
+      }
+      #find-me {
+        bottom: 10px;
+      }
+    }
+  </style>
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-53853663-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+<body>
+  <video poster="https://s3.amazonaws.com/josiahwitt-cover/Sail-Away/Sail-Away.jpg" id="bgvid" playsinline autoplay muted loop>
+    <source src="https://s3.amazonaws.com/josiahwitt-cover/Sail-Away/Sail-Away.webm" type="video/webm">
+    <source src="https://s3.amazonaws.com/josiahwitt-cover/Sail-Away/Sail-Away.ogv" type="video/ogv">
+    <source src="https://s3.amazonaws.com/josiahwitt-cover/Sail-Away/Sail-Away.mp4" type="video/mp4">
+  </video>
+  <div id="bgpic"></div>
+  <div id="container">
+    <div id="josiah">
+      <h1>Josiah Witt</h1>
+      <h2>Software Engineer</h2>
+      <p>"To be human is to change, to be perfect is to have changed many times."</p>
+      <p class="quoter">- <a href="https://en.wikiquote.org/wiki/John_Henry_Newman" target="_blank">Cardinal Newman</a></p>
+    </div>
+  </div>
+  <div id="find-me">
+    <a href="https://ca.linkedin.com/in/wittjosiah" target="_blank"><span class="fa fa-linkedin-square"></span></a>
+    <a href="https://github.com/wittjosiah/" target="_blank"><span class="fa fa-github-square"></span></a>
+    <a href="https://www.instagram.com/wittjosiah/" target="_blank"><span class="fa fa-instagram"></span></a>
+  </div>
+</body>
+</html>
