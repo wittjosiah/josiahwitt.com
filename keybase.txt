@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/wittjosiah
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://josiahwitt.com
+  * I am wittjosiah (https://keybase.io/wittjosiah) on keybase.
+  * I have a public key ASCPGRFwQm6g3NvTCxmIFK-vxOUdF2Yg7zw7c3RCnOGlwAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a3c75aebd602263606f91edf4b3ce53226203dd9bcf462cfd2db125545f8a7f40a",
+            "host": "keybase.io",
+            "kid": "01208f191170426ea0dcdbd30b198814afafc4e51d176620ef3c3b7374429ce1a5c00a",
+            "uid": "b5cef3f4d1e9a3db546daa894c752719",
+            "username": "wittjosiah"
+        },
+        "merkle_root": {
+            "ctime": 1498749521,
+            "hash": "0c4a981d7b6dea64c0df00af7145409fd8f88095e4a8aadd1feb23cd9c93a0368292f909d1d1ebc36a647eb5ded3a1e212513a74a9e95a745c200efef992ee3a",
+            "hash_meta": "6fbff97c787840fb635e4a8bb874593c68225f1ea675e1cfa7de25762bc45786",
+            "seqno": 1201132
+        },
+        "service": {
+            "hostname": "josiahwitt.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.24"
+    },
+    "ctime": 1498749633,
+    "expire_in": 504576000,
+    "prev": "0e658feb95895b789f1ccda39dcaa3f6e3596a007dba66fbf987294772e9b270",
+    "seqno": 21,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgjxkRcEJuoNzb0wsZiBSvr8TlHRdmIO88O3N0QpzhpcAKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYTNjNzVhZWJkNjAyMjYzNjA2ZjkxZWRmNGIzY2U1MzIyNjIwM2RkOWJjZjQ2MmNmZDJkYjEyNTU0NWY4YTdmNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOGYxOTExNzA0MjZlYTBkY2RiZDMwYjE5ODgxNGFmYWZjNGU1MWQxNzY2MjBlZjNjM2I3Mzc0NDI5Y2UxYTVjMDBhIiwidWlkIjoiYjVjZWYzZjRkMWU5YTNkYjU0NmRhYTg5NGM3NTI3MTkiLCJ1c2VybmFtZSI6IndpdHRqb3NpYWgifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTg3NDk1MjEsImhhc2giOiIwYzRhOTgxZDdiNmRlYTY0YzBkZjAwYWY3MTQ1NDA5ZmQ4Zjg4MDk1ZTRhOGFhZGQxZmViMjNjZDljOTNhMDM2ODI5MmY5MDlkMWQxZWJjMzZhNjQ3ZWI1ZGVkM2ExZTIxMjUxM2E3NGE5ZTk1YTc0NWMyMDBlZmVmOTkyZWUzYSIsImhhc2hfbWV0YSI6IjZmYmZmOTdjNzg3ODQwZmI2MzVlNGE4YmI4NzQ1OTNjNjgyMjVmMWVhNjc1ZTFjZmE3ZGUyNTc2MmJjNDU3ODYiLCJzZXFubyI6MTIwMTEzMn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqb3NpYWh3aXR0LmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI0In0sImN0aW1lIjoxNDk4NzQ5NjMzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjBlNjU4ZmViOTU4OTViNzg5ZjFjY2RhMzlkY2FhM2Y2ZTM1OTZhMDA3ZGJhNjZmYmY5ODcyOTQ3NzJlOWIyNzAiLCJzZXFubyI6MjEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAixLiBnHCbpv6ZIWrluAcQzSaoqGtktfffaQDo8pTigMSDgG3vHHlroqwyB5pCrHaqd8FhBy1AV6YDkehyt/pAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF1QCrqNzt1lQCjdsOTbM/G5SH9V2PRwIDucby8qpwQio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wittjosiah
+
+==================================================================
+
