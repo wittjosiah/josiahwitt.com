@@ -20,32 +20,33 @@ To do so, I am signing this object:
       "username": "wittjosiah"
     },
     "merkle_root": {
-      "ctime": 1513567329,
-      "hash": "2578defe6b35d641d254f3092b89673b66085af6c2b3221c03ae3d784550181bbcdd2d1461ac3d7e682ae38dc302820a6c7ee7256f250ffcd4132d394a602634",
-      "hash_meta": "ea3eab4e88514b304734d22784a64d17c877e6962f2f89af0d52bfebf24dabc2",
-      "seqno": 1831091
+      "ctime": 1523671057,
+      "hash": "658e79cc27e28ed440e4008dc16b43e492b9a8912c33b4706287736cc99df41405f2aef33ac5305045bd937a1948cb1007a09898575d0fed4d5189fcdb8a5846",
+      "hash_meta": "c44d37d079265601af4aa803b6b623a5566e37c9672aae5b2b1aaa9dcc664a9b",
+      "seqno": 2388250
     },
     "service": {
+      "entropy": "HbxRzvL2TDLef5DSPgoJ5HLz",
       "hostname": "josiahwitt.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 1
+    "version": 2
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "1.0.37"
+    "version": "1.0.47"
   },
-  "ctime": 1513567348,
+  "ctime": 1523671074,
   "expire_in": 504576000,
-  "prev": "e65a6b2c5c42edb413dceac83abd0d5ca595d7d5ecac012a5d2624c9c8aa034f",
-  "seqno": 53,
+  "prev": "211c22b2a5894c9bdcac51235f4784872a6a2d4825906dee0ee33f0b1e594ce6",
+  "seqno": 67,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEge32AyRQgzKu7sX9Y5qVfORQz8EUUbQokPnImAZvTVOQKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwN2I3ZDgwYzkxNDIwY2NhYmJiYjE3ZjU4ZTZhNTVmMzkxNDMzZjA0NTE0NmQwYTI0M2U3MjI2MDE5YmQzNTRlNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwN2I3ZDgwYzkxNDIwY2NhYmJiYjE3ZjU4ZTZhNTVmMzkxNDMzZjA0NTE0NmQwYTI0M2U3MjI2MDE5YmQzNTRlNDBhIiwidWlkIjoiYjVjZWYzZjRkMWU5YTNkYjU0NmRhYTg5NGM3NTI3MTkiLCJ1c2VybmFtZSI6IndpdHRqb3NpYWgifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTM1NjczMjksImhhc2giOiIyNTc4ZGVmZTZiMzVkNjQxZDI1NGYzMDkyYjg5NjczYjY2MDg1YWY2YzJiMzIyMWMwM2FlM2Q3ODQ1NTAxODFiYmNkZDJkMTQ2MWFjM2Q3ZTY4MmFlMzhkYzMwMjgyMGE2YzdlZTcyNTZmMjUwZmZjZDQxMzJkMzk0YTYwMjYzNCIsImhhc2hfbWV0YSI6ImVhM2VhYjRlODg1MTRiMzA0NzM0ZDIyNzg0YTY0ZDE3Yzg3N2U2OTYyZjJmODlhZjBkNTJiZmViZjI0ZGFiYzIiLCJzZXFubyI6MTgzMTA5MX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqb3NpYWh3aXR0LmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM3In0sImN0aW1lIjoxNTEzNTY3MzQ4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImU2NWE2YjJjNWM0MmVkYjQxM2RjZWFjODNhYmQwZDVjYTU5NWQ3ZDVlY2FjMDEyYTVkMjYyNGM5YzhhYTAzNGYiLCJzZXFubyI6NTMsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAlksaaWutGEdcw5fmoR24/uhMfbjdOX6IH7xHT1Ivqa+cLWDCeq/sKJ/20EvvuseHgBtXB+1VOm1Gh2Aw+2nNBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBB2evLp+uz+OFliBejn+9cefUR9YF1iYVdUoXcV4OUHo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEge32AyRQgzKu7sX9Y5qVfORQz8EUUbQokPnImAZvTVOQKp3BheWxvYWTESpcCQ8QgIRwisqWJTJvcrFEjX0eEhypqLUglkG3uDuM/Cx5ZTObEIJe2JhcZxMRsK7qzmRlrnsOSGJmq/bIfMYv4D+9rO2Y5AgHCo3NpZ8RAK7W385ZNYMPCPB9R1BfbkTWbYcMelJidzQoiavh0V+LorHJdmkeYIGZROlIY564vZbmmnKzLaM4zwN4OKHlFBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDPXaOWMBF/wcSqxg6oHmbQVObVdsDWvks5xhFXe8YUqo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -53,3 +54,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/wittjosiah
 
 ==================================================================
+
