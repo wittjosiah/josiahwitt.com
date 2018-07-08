@@ -104,6 +104,11 @@
       }
     }
   }
+
+  @include media-query($on-tiny) {
+    margin: 10vh auto 0;
+    width: 100%;
+  }
 }
 
 
