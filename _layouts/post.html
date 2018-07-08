@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+    <p class="verify-in-keybase">
+      You can make sure that the author wrote this post by copy-pasting <a href="https://raw.githubusercontent.com/wittjosiah/josiahwitt.com/master/signed_posts/{{ page.path | remove_first: '_posts/' }}.asc">this signature</a> into <a href="https://keybase.io/verify">this Keybase page</a>.
+    </p>
+  </div>
+
+</article>

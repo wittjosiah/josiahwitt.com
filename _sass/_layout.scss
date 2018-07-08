@@ -1,0 +1,200 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+.footer-links {
+  margin: 0 auto;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/**
+ * Bio
+ */
+.bio {
+  margin: 20vh auto 0;
+  width: 350px;
+  text-align: center;
+
+  .josiah {
+    &:hover {
+      text-decoration: none;
+    }
+
+    img {
+      width: 256px;
+      height: 256px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  h2, h3 {
+    text-align: center;
+    a {
+      color: $text-color;
+    }
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      padding: .5rem;
+      border: 1px solid $grey-color;
+      color: $brand-color;
+      background-color: $background-color;
+
+      &:hover {
+        border-bottom: 3px solid $grey-color;
+        margin-top: -3px;
+        text-decoration: none;
+        color: $brand-color;
+      }
+    }
+  }
+
+  &.side {
+    position: absolute;
+    left: 10px;
+    margin: 0;
+
+    .josiah img {
+      width: 96px;
+      height: 96px;
+    }
+    h2 {
+      display: inline-block;
+      margin-left: 1rem;
+    }
+  }
+
+  @include media-query($on-laptop) {
+    &.side {
+      position: inherit;
+      margin: 0 0 1rem 0;
+      width: 256px;
+
+      h3 {
+        display: none;
+      }
+      .links {
+        display: none;
+      }
+    }
+  }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+  min-height: 78.9vh;
+  &.full-page {
+    height: calc(100vh - #{$spacing-unit} - #{$spacing-unit});
+  }
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin: $spacing-unit 0;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+.verify-in-keybase {
+  color: $grey-color;
+  font-size: 0.8em;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.verify-in-keybase a {
+  color: $grey-color;
+}
