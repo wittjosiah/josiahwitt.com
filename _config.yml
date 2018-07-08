@@ -6,4 +6,4 @@ url: "https://josiahwitt.com"
 permalink: date
 
 markdown: kramdown
-exclude: ["README.md", "signed_posts", "sign", "sign-all", "verify-all-signed"]
+exclude: ["README.md", "signed_posts", "sign", "sign-all", "verify-all-signed", "update-dat"]

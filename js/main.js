@@ -9,4 +9,8 @@ $(document).ready(function() {
   var highlight = getColour();
   $('.site-header').css('background-color', highlight);
   $('.site-footer').css('background-color', highlight);
+
+  if (location.protocol.startsWith('dat')) {
+    $('.dat').css('display', 'none');
+  }
 });

@@ -1,0 +1,8 @@
+#!/bin/sh
+mv ./public/.dat /tmp/.dat
+mv ./public/dat.json /tmp/dat.json
+bundle exec jekyll build -d public
+mv /tmp/.dat ./public/.dat
+mv /tmp/dat.json ./public/dat.json
+cd public
+dat sync --no-watch
